@@ -32,7 +32,31 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Inter](https://vercel.com/font), a new font family for Vercel.
+
+## Commit Message Guidelines
+
+We have very precise rules over how our git commit messages can be formatted.
+
+Example:
+
+```bash
+git commit -m "feat: added navigation",
+# or
+git commit -m "build: added configuration service",
+```
+
+Must be one of the following:
+
+- **feat**: A new feature
+- **fix**: A bug fix
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- **build**: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- **perf**: A code change that improves performance
+- **ci**: Changes to our CI configuration files and scripts (example scopes: Circle, BrowserStack, SauceLabs)
+- **docs**: Documentation only changes
+- **test**: Adding missing tests or correcting existing tests
 
 ## Learn More
 
