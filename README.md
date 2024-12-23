@@ -8,6 +8,14 @@ First, clone this project :
 git clone https://github.com/Rauliqbal/nextjs-boilerplate.git
 ```
 
+install dependencies :
+
+```bash
+pnpm install
+# or
+npm install
+```
+
 run the development server:
 
 ```bash
