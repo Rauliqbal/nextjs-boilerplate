@@ -1,8 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a Next JS project boilerplate
 
 ## Getting Started
 
-First, run the development server:
+First, clone this project :
+
+```bash
+git clone https://github.com/Rauliqbal/nextjs-boilerplate.git
+```
+
+run the development server:
 
 ```bash
 npm run dev
